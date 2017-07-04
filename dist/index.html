@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" type="image/x-icon" href="">
+	<link rel="apple-touch-icon" href="">
+	<link rel="apple-touch-icon" sizes="72x72" href="">
+	<link rel="apple-touch-icon" sizes="114x114" href="">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+	<header>
+		<section class="header__block">
+			<div class="container">
+			<div class="header__wrapper">
+				<div class="logo">
+					<a href="">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+					<div class="search__bar">
+						<input class="search" type="text" placeholder="назва проекта">
+						<button class="search__button">
+							<i>
+							<svg  width="18.3" height="18.3" viewBox="0 0 18.3 18.3">
+								<path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M11.15.28a6.87 6.87 0 1 1 0 13.74 6.87 6.87 0 0 1 0-13.74zM5.8 11.8l.7.7-5 5-.7-.7z">
+							</svg>
+							</i>
+						</button>
+					</div>
+				<input type="checkbox" id="btn-menu" />
+  				<label class="burger" for="btn-menu">
+			  		<i class="button__burger">
+			  			<svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+			  		</i>
+  				</label>
+  				<div class="burger__btn">
+					<nav class="nav__wpapper">
+						<ul class="nav__menu">
+							<li class="nav__item">
+								<a class="nav__link" href="">волонтерство</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="">підбір проекта</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="">стан проектів</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="">новини</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="acc__enter">
+						<div class="lang__wrap">
+							<ul class="chose__lang">
+								<li class="lang__item"><i></i><a href="">ук</a></li>
+								<li class="lang__item"><a href="">en</a></li>
+								<li class="lang__item"><a href="">ру</a></li>
+							</ul>
+						</div>
+						<div class="buttons__wrapp">
+							<div class="like__us">
+								<i class="heart">
+									<svg width="26" height="23" viewBox="0 0 26 23"><path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>
+								<span class="count">2</span>
+							</div> 
+							<div class="button__form">
+								<button class="entet__button" >
+									<figure class="circle">
+										<i class="arrow">
+											<svg xmlns="http://www.w3.org/2000/svg" width="23" height="13" viewBox="0 0 23 13"><path d="M0 8V5h13V.99L23 6.5l-10 5.51V8z"/></svg>
+										</i>
+									</figure>
+									<span class="button__text">увійти</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="images__wrapp">
+				<div class="slider">
+					<input checked id='slide-1' name='active' type='radio'>
+					<div class='slide'>
+						<div class="slid__content-wrapper">
+							<div class="title__slider">
+								<h3 class="slider__main-text">найбільша в україні біржа добра</h3>
+								<span class="slider__second-text">допомагати просто</span>
+							</div>
+							<div class="dog__say">
+								<h4 class="friend__say">...що, що? кажеш друг тобі потрібен?<br>
+								так я ж
+								<span class="logo__min"><img src="img/logo-min.png" alt=""></span></h4>
+							</div>
+						</div>
+					</div>
+					<div class='nav'>
+						<label class='prev' for='slide-4'></label>
+						<label class='next' for='slide-2'></label>
+					</div>
+
+					<input id='slide-2' name='active' type='radio'>
+					<div class='slide'>
+
+					</div>
+					<div class='nav'>
+						<label class='prev' for='slide-1'></label>
+						<label class='next' for='slide-3'></label>
+					</div>
+
+					<input id='slide-3' name='active' type='radio'>
+					<div class='slide'>
+						
+					</div>
+					<div class='nav'>
+						<label class='prev' for='slide-2'></label>
+						<label class='next' for='slide-4'></label>
+					</div>
+
+					<input id='slide-4' name='active' type='radio'>
+					<div class='slide'>
+						
+					</div>
+					<div class='nav'>
+						<label class='prev' for='slide-3'></label>
+						<label class='next' for='slide-1'></label>
+					</div>
+				</div>
+				<div class="pull__down">
+					<a class="pull__down-link" href="">
+						<p class="pull__text">притулки для тварин</p>
+						<i>
+							<svg width="38.3" height="20.3" viewBox="0 0 38.3 20.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.8 1.5l.7-.7 18 18-.7.7zm36.52-.23l.71.7-18.06 18.06-.7-.7z"/></svg>
+						</i>
+					</a>
+				</div>
+			</div>
+			</div>
+		</section>
+	</header>
+	<section class="side__bar">
+		<div class="container">
+			<div class="page__container">
+<!--filter-->
+				<div class="filter__wrapper">
+					<div class="help__menu" id="menu">
+						<aside class="choose__help">
+							<div class="filter__title">	
+								<h3>підбір допомоги</h3>
+							</div>
+							<label for="toggle" class="toggle__menu" >прибрати параметри пошуку</label>
+							<input type="checkbox" id="toggle" checked>
+			  				<ul class="main__menu">
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="finance">
+			  						<label class="check__button" for="finance">фінансова</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="material">
+			  						<label class="check__button" for="material">матеріальна</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="service">
+			  						<label class="check__button" for="service">послуга</label>
+			  					</li>
+			  				</ul>
+			  			</aside>	
+						<aside class="radio__wrapp">
+							<ul class="filter__radio">
+								<li class="radio__check">
+									<input id="select__type-1" type="radio" name="radio" checked>
+									<label for="select__type-1" class="ff-label-type-1">притулки для тварин
+									</label>
+								</li>
+								<li class="radio__check">
+									<input id="select__type-2" type="radio" name="radio">
+									<label for="select__type-2" class="ff-label-type-1">освіта
+									</label>
+								</li>
+								<li class="radio__check">
+									<input id="select__type-3" type="radio" name="radio" >
+									<label for="select__type-3" class="ff-label-type-1">інваліди</label>
+								</li>
+								<li class="radio__check">
+									<input id="select__type-4" type="radio" name="radio">
+									<label for="select__type-4" class="ff-label-type-1">переселнці зони ато</label>
+								</li>
+								<li class="radio__check">
+									<input id="select__type-5" type="radio" name="radio" >
+									<label for="select__type-5" class="ff-label-type-1">військові</label>
+								</li>
+								<li class="radio__check">
+									<input id="select__type-6" type="radio" name="radio">
+									<label for="select__type-6" class="ff-label-type-1">літні люди</label>
+								</li>
+								<li class="radio__check">
+									<input id="select__type-7" type="radio" name="radio" >
+									<label for="select__type-7" class="ff-label-type-1">діти
+									</label>
+								</li>
+							</ul>
+						</aside>
+						<aside class="select__menu">
+							<div class="select__title">
+								<h3>впорядкувати</h3>
+
+							</div>
+							<i>
+								<svg width="10.3" height="21.3" viewBox="0 0 10.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.6 21.06l-.36-.4L9.43 10.6l.36.4zM.48.64l.36-.4 9.22 10.1-.36.39z"/></svg>
+							</i>
+							<select class="select">
+								<option value="">останні додані</option>
+								<option value="">не останні додані</option>
+								<option value="">додані дужеее давно</option>
+							</select>
+						</aside>
+						<aside class="chose__shelter">	
+							<div class="filter__title">	
+								<h3>притулки</h3>
+							</div>
+							<label for="toggle__shelter" class="toggle__menu" >показати всі позиції</label>
+							<input type="checkbox" id="toggle__shelter" checked>
+			  				<ul class="shelter__menu">
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="ameda">
+			  						<label class="check__button" for="ameda">амеда</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="sirius">
+			  						<label class="check__button" for="sirius">сіріус</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="myloserdya">
+			  						<label class="check__button" for="myloserdya">милосердя</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="grominit">
+			  						<label class="check__button" for="grominit">громадська ініціатива</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="tailsandpaw">
+			  						<label class="check__button" for="tailsandpaw">хвости і лапи</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="pankotskiy">
+			  						<label class="check__button" for="pankotskiy">пан коцький</label>
+			  					</li>
+			  					<li class="checkmenu">
+			  						<input type="checkbox" id="zvirinets">
+			  						<label class="check__button" for="zvirinets">звіринець</label>
+			  					</li>
+			  				</ul>
+		  				</aside>
+					</div>
+				</div>
+<!--end filter-->
+			<div class="cart__wrapper">
+				<div class="filter__title">	
+					<h3>притулки для тварин</h3>
+				</div>
+
+				<ul class="cart__menu">
+				<!-- <input class="close__cart" type="checkbox" > -->
+					<li class="cart__item" id="c1">
+						<article class="image__cart">
+							<div class="image__wrapper">
+							<div class="overlay">
+								<i class="close__cross">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="21.3" viewBox="0 0 20.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.79 1.5L1.5.8l8.66 9.14 9.2-8.68.69.72-9.2 8.7 8.65 9.13-.72.68-8.66-9.13-9.2 8.68-.69-.72 9.2-8.7z"/></svg>
+								</i>
+								<a class="cube" href="">info</a>
+								<i class="like__this">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+										<path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>				
+							</div>
+							<img src="img/give-five.png" alt="">
+							</div>
+							<div class="content__cart">
+								<p class="cart__text">Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="hover__content">
+									<p class="price">сума не обмежена</p>
+									<a class="help__button" href="">допомогти</a>
+								</div>
+							</div>
+						</article> 
+					</li>
+					<li class="cart__item">
+						<article class="image__cart">
+							<div class="image__wrapper">
+							<div class="overlay">
+								<i class="close__cross">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="21.3" viewBox="0 0 20.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.79 1.5L1.5.8l8.66 9.14 9.2-8.68.69.72-9.2 8.7 8.65 9.13-.72.68-8.66-9.13-9.2 8.68-.69-.72 9.2-8.7z"/></svg>
+								</i>
+								<a class="cube" href="">info</a>
+								<i class="like__this">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+										<path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>				
+							</div>
+							<img src="img/labrador.png" alt="">
+							</div>
+							<div class="content__cart">
+								<p class="cart__text">Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="hover__content">
+									<p class="price">сума не обмежена</p>
+									<a class="help__button" href="">допомогти</a>
+								</div>
+							</div>
+						</article> 
+					</li>
+					<li class="cart__item">
+						<article class="image__cart">
+							<div class="image__wrapper">
+							<div class="overlay">
+								<i class="close__cross">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="21.3" viewBox="0 0 20.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.79 1.5L1.5.8l8.66 9.14 9.2-8.68.69.72-9.2 8.7 8.65 9.13-.72.68-8.66-9.13-9.2 8.68-.69-.72 9.2-8.7z"/></svg>
+								</i>
+								<a class="cube" href="">info</a>
+								<i class="like__this">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+										<path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>				
+							</div>
+							<img src="img/nice-dog.png" alt="">
+							</div>
+							<div class="content__cart">
+								<p class="cart__text">Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="hover__content">
+									<p class="price">сума не обмежена</p>
+									<a class="help__button" href="">допомогти</a>
+								</div>
+							</div>
+						</article> 
+					</li>
+				</ul>
+				<ul class="cart__menu">
+				<!-- <input class="close__cart" type="checkbox" > -->
+					<li class="cart__item" id="c1">
+						<article class="image__cart">
+							<div class="image__wrapper">
+							<div class="overlay">
+								<i class="close__cross">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="21.3" viewBox="0 0 20.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.79 1.5L1.5.8l8.66 9.14 9.2-8.68.69.72-9.2 8.7 8.65 9.13-.72.68-8.66-9.13-9.2 8.68-.69-.72 9.2-8.7z"/></svg>
+								</i>
+								<a class="cube" href="">info</a>
+								<i class="like__this">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+										<path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>				
+							</div>
+							<img src="img/give-five.png" alt="">
+							</div>
+							<div class="content__cart">
+								<p class="cart__text">Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="hover__content">
+									<p class="price">сума не обмежена</p>
+									<a class="help__button" href="">допомогти</a>
+								</div>
+							</div>
+						</article> 
+					</li>
+					<li class="cart__item">
+						<article class="image__cart">
+							<div class="image__wrapper">
+							<div class="overlay">
+								<i class="close__cross">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="21.3" viewBox="0 0 20.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.79 1.5L1.5.8l8.66 9.14 9.2-8.68.69.72-9.2 8.7 8.65 9.13-.72.68-8.66-9.13-9.2 8.68-.69-.72 9.2-8.7z"/></svg>
+								</i>
+								<a class="cube" href="">info</a>
+								<i class="like__this">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+										<path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>				
+							</div>
+							<img src="img/labrador.png" alt="">
+							</div>
+							<div class="content__cart">
+								<p class="cart__text">Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="hover__content">
+									<p class="price">сума не обмежена</p>
+									<a class="help__button" href="">допомогти</a>
+								</div>
+							</div>
+						</article> 
+					</li>
+					<li class="cart__item">
+						<article class="image__cart">
+							<div class="image__wrapper">
+							<div class="overlay">
+								<i class="close__cross">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="21.3" viewBox="0 0 20.3 21.3"><path fill="none" stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width=".3" d="M.79 1.5L1.5.8l8.66 9.14 9.2-8.68.69.72-9.2 8.7 8.65 9.13-.72.68-8.66-9.13-9.2 8.68-.69-.72 9.2-8.7z"/></svg>
+								</i>
+								<a class="cube" href="">info</a>
+								<i class="like__this">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+										<path d="M24.2 13.1l-.1.08a8.04 8.04 0 0 1-1.8 1.57l-9.36 8.15-11.46-9.69h.45A8 8 0 0 1 13 1.75 8 8 0 0 1 24.17 13.1z"/>
+									</svg>
+								</i>				
+							</div>
+							<img src="img/nice-dog.png" alt="">
+							</div>
+							<div class="content__cart">
+								<p class="cart__text">Збираємо кошти на харчування тварин Притулок Сіріус</p>
+								<div class="hover__content">
+									<p class="price">сума не обмежена</p>
+									<a class="help__button" href="">допомогти</a>
+								</div>
+							</div>
+						</article> 
+					</li>
+				</ul>
+				<div class="pagination__wrapper">
+					<i class="figure">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24.8" height="40.9" viewBox="0 0 24.8 40.9"><path d="M12.4 40.9l-5.52-10h11.03z"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="1.8" d="M12.4.9a11.5 11.5 0 1 1 0 23 11.5 11.5 0 0 1 0-23z"/></svg>
+					</i>
+					<p>показати більше позицій</p>
+					<div class="pagination">
+						<input type="radio" name="aa">
+						<input type="radio" name="aa">
+						<input type="radio" name="aa">
+						<input type="radio" name="aa">
+						<input type="radio" name="aa">
+						<input type="radio" name="aa">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pre__footer">
+		<div class="container">
+			<div class="description__slider">
+			<div class="slider__two">
+				<input checked id='slide-5' name='active__second' type='radio'>
+				<article class='slide__two'>
+				<div class="main__wrapp">
+				<div class="slide__wrap">
+					<div class="slide__image-block">
+						<img class="slide__image" src="img/sirius-give5.png" alt="">					
+						<div class='nav'>
+							<label class='prev' for='slide-7'></label>
+							<label class='next' for='slide-6'></label>
+						</div>
+						<div class="send__cash">
+							<p>сума не обмежена</p>
+							<a class="confirm__cash" href="">допомогти</a>
+						</div>	
+					</div>
+					<div class="all__content-description">
+						<h3 class="headline">збираємо кошти на харчування тварин #дай5!</h3>
+						<address class="publisher">Притулок Сиріус</address>
+						<p>
+							Що можна купити на 5 гривень? Більше, ніж ти думаєш – цілий 
+							день ситого життя для одного безпритульного собаки!
+							Ми знову запускаємо естафету #ДАЙ5 і закликаємо всіх 
+							підтримати понад дві тисячі вихованців найбільшого в Україні 
+							притулку для тварин "Сіріус"
+						</p>
+						<p>
+							Поліпшити умови очікування справжнього дому просто: 
+							перераховуй 5 або більше гривень на картку притулку
+							Приватбанк<br>
+							<a href="">5169 3305 1043 1114</a>, 
+							<br>
+							Мезінова О. В. (директора притулку)
+							або через сайт 
+							<a href="">http://sheltersirius.org</a> і передай естафету друзям.
+						</p>
+						<p>
+							Також можна налаштувати регулярний платіж і годувати 
+							хвостів на постійній 
+							основі. Як це зробити, дивись тут: 
+							<a href="">нgoo.gl/cYzT3Y</a>
+						</p>
+					</div>
+				</div>
+					<div class="contact__form">
+						<h3>КОНТАКТИ Притулок Сіріус</h3>
+						<a class="phone" href="tel:0671234567">тел: 067 123 45 67</a>
+						<span class="social">
+							<a href="www.facebook.com" class="facebook"></a>
+							<a href="vk.com" class="vk"></a>
+						</span>
+						<a class="our__site" href="www.dogcat.com.ua">www.dogcat.com.ua</a>
+						<a class="send__mail" href="">написати нам</a>
+						<p>Україна, Київська область,<br> село Федорівка</p>
+						<div class="map">
+	
+						<iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=29.837322235107425%2C50.93863531030986%2C29.980831146240238%2C51.01947819666632&amp;layer=mapnik" 
+						style="border: 1px solid black"></iframe>
+						</div>
+						<a href="" class="look__project">перегялнути інші проекти організації</a>
+					</div>
+				</div>
+				</article>
+				<input id='slide-6' name='active__second' type='radio'>
+				<article class='slide__two'>
+				<div class="main__wrapp">
+				<div class="slide__wrap">
+					<div class="slide__image-block">
+						<img class="slide__image" src="img/sirius-give5.png" alt="">					
+						<div class='nav'>
+							<label class='prev' for='slide-5'></label>
+							<label class='next' for='slide-7'></label>
+						</div>
+						<div class="send__cash">
+							<p>сума не обмежена</p>
+							<a class="confirm__cash" href="">допомогти</a>
+						</div>
+					</div>
+					<div class="all__content-description">
+						<h3 class="headline">збираємо кошти на харчування тварин #дай5!</h3>
+						<address class="publisher">Притулок Сиріус</address>
+						<p>
+							Що можна купити на 5 гривень? Більше, ніж ти думаєш – цілий 
+							день ситого життя для одного безпритульного собаки!
+							Ми знову запускаємо естафету #ДАЙ5 і закликаємо всіх 
+							підтримати понад дві тисячі вихованців найбільшого в Україні 
+							притулку для тварин "Сіріус"
+						</p>
+						<p>
+							Поліпшити умови очікування справжнього дому просто: 
+							перераховуй 5 або більше гривень на картку притулку
+							Приватбанк<br>
+							<a href="">5169 3305 1043 1114</a>, 
+							<br>
+							Мезінова О. В. (директора притулку)
+							або через сайт 
+							<a href="">http://sheltersirius.org</a> і передай естафету друзям.
+						</p>
+						<p>
+							Також можна налаштувати регулярний платіж і годувати 
+							хвостів на постійній 
+							основі. Як це зробити, дивись тут: 
+							<a href="">нgoo.gl/cYzT3Y</a>
+						</p>
+					</div>
+				</div>
+					<div class="contact__form">
+						<h3>КОНТАКТИ Притулок Сіріус</h3>
+						<a class="phone" href="tel:0671234567">тел: 067 123 45 67</a>
+						<span class="social">
+							<a href="www.facebook.com" class="facebook"></a>
+							<a href="vk.com" class="vk"></a>
+						</span>
+						<a class="our__site" href="www.dogcat.com.ua">www.dogcat.com.ua</a>
+						<a class="send__mail" href="">написати нам</a>
+						<p>Україна, Київська область,<br> село Федорівка</p>
+						<div class="map">
+	
+							<!-- <iframe width="160" height="160" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=29.837322235107425%2C50.93863531030986%2C29.980831146240238%2C51.01947819666632&amp;layer=mapnik" 
+							style="border: 1px solid black"></iframe> -->
+						</div>
+						<a href="" class="look__project">перегялнути інші проекти організації</a>
+					</div>
+				</div>
+
+				</article>
+				<input id='slide-7' name='active__second' type='radio'>
+				<article class='slide__two'>
+				<div class="main__wrapp">
+				<div class="slide__wrap">
+					<div class="slide__image-block">
+						<img class="slide__image" src="img/sirius-give5.png" alt="">					
+						<div class='nav'>
+							<label class='prev' for='slide-6'></label>
+							<label class='next' for='slide-5'></label>
+						</div>
+						<div class="send__cash">
+							<p>сума не обмежена</p>
+							<a class="confirm__cash" href="">допомогти</a>
+						</div>
+					</div>
+					<div class="all__content-description">
+						<h3 class="headline">збираємо кошти на харчування тварин #дай5!</h3>
+						<address class="publisher">Притулок Сиріус</address>
+						<p>
+							Що можна купити на 5 гривень? Більше, ніж ти думаєш – цілий 
+							день ситого життя для одного безпритульного собаки!
+							Ми знову запускаємо естафету #ДАЙ5 і закликаємо всіх 
+							підтримати понад дві тисячі вихованців найбільшого в Україні 
+							притулку для тварин "Сіріус"
+						</p>
+						<p>
+							Поліпшити умови очікування справжнього дому просто: 
+							перераховуй 5 або більше гривень на картку притулку
+							Приватбанк<br>
+							<a href="">5169 3305 1043 1114</a>, 
+							<br>
+							Мезінова О. В. (директора притулку)
+							або через сайт 
+							<a href="">http://sheltersirius.org</a> і передай естафету друзям.
+						</p>
+						<p>
+							Також можна налаштувати регулярний платіж і годувати 
+							хвостів на постійній 
+							основі. Як це зробити, дивись тут: 
+							<a href="">нgoo.gl/cYzT3Y</a>
+						</p>
+					</div>
+				</div>
+					<div class="contact__form">
+						<h3>КОНТАКТИ Притулок Сіріус</h3>
+						<a class="phone" href="tel:0671234567">тел: 067 123 45 67</a>
+						<span class="social">
+							<a href="www.facebook.com" class="facebook"></a>
+							<a href="vk.com" class="vk"></a>
+						</span>
+						<a class="our__site" href="www.dogcat.com.ua">www.dogcat.com.ua</a>
+						<a class="send__mail" href="">написати нам</a>
+						<p>Україна, Київська область,<br> село Федорівка</p>
+						<div class="map">
+	
+							<!-- <iframe width="160" height="160" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=29.837322235107425%2C50.93863531030986%2C29.980831146240238%2C51.01947819666632&amp;layer=mapnik" 
+							style="border: 1px solid black"></iframe> -->
+						</div>
+						<a href="" class="look__project">перегялнути інші проекти організації</a>
+					</div>
+				</div>
+
+				</article>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="interesting__news"> 
+		<div class="container">
+			<div class="news__wrapper">
+				<div class="news__title">	
+					<h3>підбір допомоги</h3>
+				</div>
+				<ul class="news__block">
+					<li class="news__item">
+						<a href="">
+					 		<img src="img/volunter.png" alt="">
+					 		<p>Волонтерство вихідного дня</p>
+				 		</a>
+				 	</li>
+				 	<li class="news__item">
+				 		<a href="">
+					 		<img src="img/chapik.png" alt="">
+					 		<p>Чапік шукає даму серця</p>
+				 		</a>
+				 	</li>
+				 	<li class="news__item">
+				 		<a href="">
+					 		<img src="img/dishes.png" alt="">
+					 		<p>Нам потрібен старий посуд та підстилки</p>
+				 		</a>
+				 	</li>
+				 	<li class="news__item">
+				 		<a href="">
+					 		<img src="img/cat.png" alt="">
+					 		<p>Я Інжир і мені потрібен дім на тиждень</p>
+				 		</a>
+				 	</li>
+				 	<li class="news__item">
+				 		<a href="">
+					 		<img src="img/three_cat.png" alt="">
+					 		<p>Ми вже два місяці як готові дарувати Вам щастя</p>
+				 		</a>
+				 	</li>
+				 	<li class="news__item">
+				 		<a href="">
+					 		<img src="img/dog_hand.png" alt="">
+					 		<p>Шукаємо сторожа в притулок</p>
+				 		</a>
+				 	</li> 	
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapp">
+				<div class="mail__wrapp">
+					<div class="mail__form">
+						<h3 class="form__title">з питань розміщення проектів заповінть форму</h3>
+						<form action="" method="" class="send__message">
+							<button class="send__mail">відправити</button>
+							<input class="name" type="text" placeholder="Ім'я">
+							<input class="surname" type="text" placeholder="Прізвище">
+							<input class="email" type="email" placeholder="E-mail">
+							<textarea class="text" name="text" height="167" placeholder="Текст"></textarea>
+						</form>
+						<p>Всі поля заповняти обов’язково</p>
+					</div>
+				</div>
+				<div class="sign__wrapp">
+					<div class="sign__up">
+						<h3 class="form__title">телефон<br>063 456 78 90</h3>
+						<div class="sign__content">
+							<p>E-mail<br> info@porjad.gmail.com</p>
+							<p>Підпишіться і отримуйте новини про
+								нові проекти та активність
+								у вашому кабінеті
+							</p>
+							<input class="email" type="email" placeholder="E-mail">
+							<button class="confirm__sign">підписатися</button>
+						</div>
+					</div>
+				</div>
+				<div class="social__wrapp">
+					<div class="social__media">
+						<h3 class="form__title">приєднуйтесь до нас у соціальних мережах</h3>
+						<ul class="social__links">
+							<li class="social__item">
+								<a href="https://facebook.com">
+									<i>
+										<img src="img/facebook2.png" alt="">
+									</i>
+									<span>facebook</span>
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="https://vk.com">
+									<i>
+										<img src="img/vk.png" alt="">
+									</i>
+									<span>vkontakte</span>
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="https://plus.google.com/">
+									<i>
+										<img src="img/google.png" alt="">
+									</i>
+									<span>google+</span>
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="https://instagram.com/">
+									<i>
+										<img src="img/instagram.png" alt="">
+									</i>
+									<span>instagram</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright" style="">
+					<div class="logo">
+						<a href="">
+							<img src="img/footer-logo.png" alt="">
+						</a>
+					</div>
+					<p>© 2017 Соціальні проекти ‘ПОРЯД’. Всі права захищено.</p>
+				</div>
+				</div>
+			</div>
+		</div>		
+	</footer>
+	<link rel="stylesheet" href="css/main.min.css">
+</body>
+</html>
